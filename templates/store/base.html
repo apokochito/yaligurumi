@@ -12,9 +12,41 @@
     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="static/css/normalize.css" type="text/css">
     <link rel="stylesheet" href="static/css/skeleton.css" type="text/css">
+    <link rel="stylesheet" href="static/css/nav.css" type="text/css">
+    <script>
+        function openDrawerMenu(){
+            var x = document.getElementById("mainNavBar");
+            if (x.className === "navBar"){
+              x.className += " responsive";
+            } else {
+              x.className = "navBar";
+            }
+          }
+    </script>
 </head>
 
 <body>
+    <div class="container box"> 
+    <div class="navBar" id="mainNavBar">
+        <a href="#">Inicio</a>
+        <a href="#service">Enterprise</a>
+        <a href="#about">Support</a>
+        <select name="cars" id="cars">
+            <option value="volvo">Category...</option>
+            <option value="saab">Animals</option>
+            <option value="opel">Pókemon</option>
+            <option value="audi">Minecraft</option>
+          </select>
+        <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search..." name="search">
+              <button type="submit">🔎</button>
+            </form>
+          </div>
+        <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
+        <!--&#9776; is the code for the 3 line menu button-->
+      </div>
+    </div>
     <div id="content">{% block content %} {% endblock %}</div>
 </body>
 </html>
