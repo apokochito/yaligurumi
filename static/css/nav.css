@@ -21,7 +21,7 @@
 }
 
 .search-container input:hover {
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(255, 255, 255);
     border-color: #cc47c5;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .navBar select:hover {
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(255, 255, 255);
     border-color: #cc47c5;
 }
 
