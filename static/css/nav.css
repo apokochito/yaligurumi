@@ -52,13 +52,12 @@
 
 .navBar {
     background-color: #fff;
-    display: flex;
-    justify-content: space-between;
 }
 
 .navBar select {
     margin-top: 2%;
     outline: #cc47c5;
+    margin: 19px 10px;
 }
 
 .navBar select:hover {
@@ -89,10 +88,14 @@
 }
 
 /*Set your custom screen width here replacing 700*/
-@media (max-width: 700px) {
+@media (max-width: 550px) {
 
     /*Ignores the first link (which is Home) in the div and       applies 'display = none' to everything else.   Basically hiding everything but Home*/
     .navBar a:not(:first-child) {
+        display: none;
+    }
+
+    .navBar select {
         display: none;
     }
 
@@ -120,10 +123,27 @@
         display: block;
         text-align: left;
     }
+
+    .navBar.responsive select {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
 }
 
-@media (max-width: 795px) {
+@media (min-width: 795px) {
+    .search-container {
+        margin: 14px 0px 0px 0px;
+    }
+    .navBar a {
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 810px) {
     .search-container {
         display: none;
     }
 }
+
