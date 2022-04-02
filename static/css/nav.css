@@ -3,6 +3,7 @@
     margin: 14px 16px;
     text-align: end;
     float: right;
+    outline: #cc47c5;
 }
 
 .search-container button {
@@ -11,16 +12,17 @@
     width: 50px;
     padding: 1px 0px 30px 3px;
     margin-top: 5px;
+    outline: #cc47c5;
 }
 
 .search-container button:hover {
-    background-color: rgb(248, 248, 248);
-    border-color: #009cde;
+    background-color: rgb(255, 255, 255);
+    border-color: #cc47c5;
 }
 
 .search-container input:hover {
     background-color: rgb(248, 248, 248);
-    border-color: #009cde;
+    border-color: #cc47c5;
 }
 
 @media screen and (max-width: 600px) {
@@ -56,11 +58,12 @@
 
 .navBar select {
     margin-top: 2%;
+    outline: #cc47c5;
 }
 
 .navBar select:hover {
     background-color: rgb(248, 248, 248);
-    border-color: #009cde;
+    border-color: #cc47c5;
 }
 
 /*Floats each item to the left with padding of 14 & 16 px.
@@ -77,7 +80,7 @@
 /*Background color change during hover state*/
 .navBar a:hover {
     background-color: white;
-    color: #009cde;
+    color: #cc47c5;
 }
 
 /*Hides the menu Icon which will show when the nav needs to be responsive*/
