@@ -1,6 +1,19 @@
+.logo {
+    height: 55px;
+    width: auto;
+}
+
+#containerForNav {
+    display: flex;
+}
+
+.navbar-logo {
+    padding-top: 15px;
+}
+
 .search-container {
     color: black;
-    margin: 14px 16px;
+    margin: 13px 16px;
     text-align: end;
     float: right;
     outline: #7e6325;
@@ -9,7 +22,7 @@
 
 .search-container button {
     cursor: pointer;
-    height: 37px;
+    height: 39px;
     width: 50px;
     padding: 1px 0px 30px 3px;
     margin-top: 5px;
@@ -47,6 +60,11 @@ input[type="text"], textarea {
 
     background-color: rgb(241, 241, 241);
   
+}
+
+.navBar {
+    margin: 8px 0px 0px 25px;
+    flex: auto;
 }
 
 .navBar select {
@@ -129,7 +147,7 @@ input[type="text"], textarea {
 
 @media (min-width: 795px) {
     .search-container {
-        margin: 14px 0px 0px 0px;
+        margin: 13px 0px 0px 0px;
     }
     .navBar a {
         margin-right: auto;

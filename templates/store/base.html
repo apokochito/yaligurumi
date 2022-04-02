@@ -27,7 +27,9 @@
 </head>
 
 <body>
-    <div class="container box"> 
+    <div class="container box">
+    <div class"container box" id="containerForNav">
+    <a href="#" class="navbar-logo"><img class="logo" src="static/img/yaligurumi3.png"></a>
     <div class="navBar" id="mainNavBar">
         <a href="#">Inicio</a>
         <a href="#about">Tienda</a>
@@ -47,6 +49,7 @@
         <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
         <!--&#9776; is the code for the 3 line menu button-->
       </div>
+    </div>
     </div>
     <div id="content">{% block content %} {% endblock %}</div>
 </body>
