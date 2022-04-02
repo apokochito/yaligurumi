@@ -1,9 +1,10 @@
 .search-container {
-    color: grey;
+    color: black;
     margin: 14px 16px;
     text-align: end;
     float: right;
-    outline: #cc47c5;
+    outline: #7e6325;
+    border-radius: 5px;
 }
 
 .search-container button {
@@ -12,17 +13,17 @@
     width: 50px;
     padding: 1px 0px 30px 3px;
     margin-top: 5px;
-    outline: #cc47c5;
+    outline: #7e6325;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
 }
 
 .search-container button:hover {
-    background-color: rgb(255, 255, 255);
-    border-color: #cc47c5;
+    border-color: #7e6325;
 }
 
 .search-container input:hover {
-    background-color: rgb(255, 255, 255);
-    border-color: #cc47c5;
+    border-color: #7e6325;
 }
 
 @media screen and (max-width: 600px) {
@@ -39,38 +40,33 @@
         padding: 14px;
     }
 
-    input[type=text] {
-        border: 1px solid #ccc;
-    }
 }
 
 
+input[type="text"], textarea {
 
-
-
-
-
-.navBar {
-    background-color: #fff;
+    background-color: rgb(241, 241, 241);
+  
 }
 
 .navBar select {
     margin-top: 2%;
-    outline: #cc47c5;
+    outline: #7e6325;
     margin: 19px 10px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
 }
 
 .navBar select:hover {
-    background-color: rgb(255, 255, 255);
-    border-color: #cc47c5;
+    border-color: #7e6325;
 }
 
 /*Floats each item to the left with padding of 14 & 16 px.
   Removes the underline with text decoration = none.*/
 .navBar a {
     float: left;
-    color: grey;
-    padding: 23px 16px;
+    color: black;
+    padding: 23px 26px 0px 0px;
     text-decoration: none;
     font-size: 17px;
     font-family: Tahoma;
@@ -78,8 +74,7 @@
 
 /*Background color change during hover state*/
 .navBar a:hover {
-    background-color: white;
-    color: #cc47c5;
+    color: #7e6325;
 }
 
 /*Hides the menu Icon which will show when the nav needs to be responsive*/
@@ -141,7 +136,7 @@
     }
 }
 
-@media (max-width: 810px) {
+@media (max-width: 842px) {
     .search-container {
         display: none;
     }

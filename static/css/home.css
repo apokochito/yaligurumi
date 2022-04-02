@@ -1,0 +1,33 @@
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.one-half.column {
+    text-align: center;
+    margin-top: 25%;
+    width: auto;
+}
+
+.container.welcome {
+    width: 100%;
+    text-align: center;
+}
+
+.row.welcome {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
+}
+
+body {
+    background-image: url('../img/body-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+.goto {
+    margin-top: 10%;
+}
