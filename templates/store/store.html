@@ -1,0 +1,17 @@
+{% extends './base.html' %}
+{% load static %}
+{% block title %}Tienda{% endblock %}
+
+<div class="section categories">
+    <div class="container">
+      <h3 class="section-heading">Todos nuestros productos</h3>
+      <p class="section-description">Ponte en contacto con nosotros para diseños personalizados.</p>
+      <div class="row">
+        {% for product in products %}
+        <div class="one-half column category">
+          <img class="u-max-full-width" src="{{product.image.url}}">
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>

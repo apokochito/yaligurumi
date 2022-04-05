@@ -31,3 +31,7 @@ h4 {
 .goto {
     margin-top: 10%;
 }
+
+#home-button {
+    border-color: black;
+}
