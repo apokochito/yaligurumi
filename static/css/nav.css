@@ -101,7 +101,7 @@ input[type="text"], textarea {
 }
 
 /*Set your custom screen width here replacing 700*/
-@media (max-width: 550px) {
+@media (max-width: 673px) {
 
     /*Ignores the first link (which is Home) in the div and       applies 'display = none' to everything else.   Basically hiding everything but Home*/
     .navBar a:not(:first-child) {
@@ -110,6 +110,8 @@ input[type="text"], textarea {
 
     .navBar select {
         display: none;
+        margin-left: 0px;
+        margin-bottom: 0px;
     }
 
     /*Brings the menu icon into view and floats it to the right*/
@@ -154,7 +156,7 @@ input[type="text"], textarea {
     }
 }
 
-@media (max-width: 842px) {
+@media (max-width: 1001px) {
     .search-container {
         display: none;
     }
